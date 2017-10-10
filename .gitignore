@@ -1,0 +1,5 @@
+node_modules/
+.vscode/settings.json
+*.log
+variables.env
+variables.env.now
