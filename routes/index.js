@@ -74,5 +74,3 @@ router.get('/api/stores/near', catchErrors(storeController.mapStores));
 router.post('/api/stores/:id/heart', catchErrors(storeController.heartStore));
 
 module.exports = router;
-
-// DATABASE=mongodb://speedy:bang@ds139994.mlab.com:39994/ajiboyeen_node
